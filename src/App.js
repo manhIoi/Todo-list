@@ -1,14 +1,16 @@
 import './App.css';
 import TodoList from './components/TodoList';
-import HeaderSearch from './components/HeaderSearch'
 function App() {
   const TODOLISt =[
     {title: 'Đi chơi', isComplete: true},
     {title: 'Đi chợ', isComplete: true},
     {title: 'Đi học', isComplete: false},
-    {title: 'Đi học 1', isComplete: false},
-
 ]
+
+  const onFilterAll=()=>{
+  }
+
+
   return (
     <div className="App">
       <TodoList todoList= {TODOLISt}/>
@@ -17,3 +19,7 @@ function App() {
 }
 
 export default App;
+// data đây okk ... 
+// hình như ghi lộn file
+// file cha có state bên file todolist á
+// hôm bữa đặt tên lộn quên sửa :))

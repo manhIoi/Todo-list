@@ -6,7 +6,7 @@ class HeaderSearch extends React.Component {
     render() {
         const url = dropDown
         return(
-            <div class="header-search">
+            <div className="header-search">
                 <img className="header-search__logo" src={url} />
                 <input 
                     type="text" className="header-search__input" 
@@ -18,4 +18,4 @@ class HeaderSearch extends React.Component {
     }
 }
 
-export default HeaderSearch
+export default HeaderSearch 
